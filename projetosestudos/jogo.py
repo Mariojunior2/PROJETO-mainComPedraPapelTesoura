@@ -9,10 +9,10 @@ jogador = input("Fale Pedra,Papel ou tesoura: ").lower()
 
 
 if jogador == computer:
-    print("Você Escolheu: \n" + jogador.capitalize())
-    print("Computador Escolheu: \n" + computer.capitalize())
+    print("Você Escolheu: \n" + jogador.capitalize()) # CAPITALIZE DEIXA A PRIMEIRA LETRA MAINSCULA
+    print("Computador Escolheu: \n" + computer.capitalize()) # CAPITALIZE DEIXA A PRIMEIRA LETRA MAINSCULA
     print("Empatou")
-elif jogador == "pedra" and computer == "papel":
+elif jogador == "pedra" and computer == "papel": # AND serve para espécificar mais uma condição
     print("Você Escolheu: \n" + jogador.capitalize())
     print("Computador Escolheu: \n" + computer.capitalize())
     print("Maquina Te Solou Gostoso")
