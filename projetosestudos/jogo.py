@@ -10,7 +10,7 @@ jogador = input("Fale Pedra,Papel ou tesoura: ").lower()
 
 if jogador == computer:
     print("Você Escolheu: \n" + jogador.capitalize())
-    print("Computador Escolheu: \n" + computer)
+    print("Computador Escolheu: \n" + computer.capitalize())
     print("Empatou")
 elif jogador == "pedra" and computer == "papel":
     print("Você Escolheu: \n" + jogador.capitalize())
